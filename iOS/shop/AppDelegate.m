@@ -52,7 +52,7 @@
 	[UserModel			sharedInstance];
 
 	// 配置ECSHOP
-	[ServerConfig sharedInstance].url = @"http://shop.ecmobile.me/ecmobile/?url=";
+	[ServerConfig sharedInstance].url = @"http://115.28.107.78/ecmobile/?url=";
 
 	// 配置闪屏
 	bee.services.wizard.config.showBackground = YES;
@@ -149,7 +149,7 @@
 	[MobClick setCrashReportEnabled:YES];
 	[MobClick setLatitude:lbs.location.coordinate.latitude longitude:lbs.location.coordinate.longitude];
 	[MobClick setLocation:lbs.location];
-	[MobClick startWithAppkey:@"<Your umengKey>" reportPolicy:BATCH channelId:nil];
+	[MobClick startWithAppkey:@"53f36a7ffd98c5488a003849" reportPolicy:BATCH channelId:nil];
 	
 	// 配置快递100
 	[ExpressModel setKuaidi100Key:@"<Your kuaidi100Key>"];

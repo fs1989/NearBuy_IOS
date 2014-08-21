@@ -137,8 +137,8 @@ ON_SIGNAL3( G0_SettingCell_iPhone, setting_normal, signal )
 ON_SIGNAL3( G0_SettingCell_iPhone, setting_feedback, signal )
 {
 		UMFeedbackViewController * vc = [[UMFeedbackViewController alloc] initWithNibName:@"UMFeedbackViewController" bundle:nil];
-#warning Config Your UMengkey
-		vc.appkey = @"<Your umengKey>";
+
+		vc.appkey = @"53f36a7ffd98c5488a003849";
 		
 		UINavigationController * nav = [[[UINavigationController alloc] initWithRootViewController:vc] autorelease];
 		[self presentModalViewController:nav animated:YES];

@@ -62,10 +62,11 @@
 		6324A4231754FC7700372FD7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6324A4151754FC7700372FD7 /* SystemConfiguration.framework */; };
 		6324A4241754FC7700372FD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6324A4161754FC7700372FD7 /* UIKit.framework */; };
 		6324A91E1755AA8300372FD7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6324A91D1755AA8300372FD7 /* AudioToolbox.framework */; };
+		710716E319A61F24004E8CF4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 710716E219A61F24004E8CF4 /* icon.png */; };
+		718C8E4419A1009E006F5400 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 718C8E4219A1009E006F5400 /* icon.png */; };
+		718C8E4519A1009E006F5400 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 718C8E4319A1009E006F5400 /* icon@2x.png */; };
 		CB013ED018C0500700D381A0 /* CommonNoResultCell.xml in Resources */ = {isa = PBXBuildFile; fileRef = CB013ECF18C0500700D381A0 /* CommonNoResultCell.xml */; };
 		CB55509A18B45695000EC760 /* NSObject+ScrollViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = CB55509918B45695000EC760 /* NSObject+ScrollViewExt.m */; };
-		CB60E56A179E2B100094F91C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB60E569179E2B100094F91C /* icon.png */; };
-		CB60E56C179E2B360094F91C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB60E56B179E2B360094F91C /* icon@2x.png */; };
 		CB81D25F18ABB3F000F277EA /* AddressInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB81D08F18ABB3EE00F277EA /* AddressInfoModel.m */; };
 		CB81D26018ABB3F000F277EA /* AddressListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB81D09118ABB3EE00F277EA /* AddressListModel.m */; };
 		CB81D26118ABB3F000F277EA /* ArticleGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB81D09318ABB3EE00F277EA /* ArticleGroupModel.m */; };
@@ -960,7 +961,7 @@
 		630236EA177C1675004C052D /* shop-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "shop-Prefix.pch"; sourceTree = "<group>"; };
 		630236EE177C1675004C052D /* AppBoard_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBoard_iPad.h; sourceTree = "<group>"; };
 		630236EF177C1675004C052D /* AppBoard_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppBoard_iPad.m; sourceTree = "<group>"; };
-		63249C9B1754E07900372FD7 /* ECMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63249C9B1754E07900372FD7 /* NearBuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearBuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6324A4091754FC7700372FD7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		6324A40A1754FC7700372FD7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		6324A40B1754FC7700372FD7 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
@@ -976,11 +977,12 @@
 		6324A4151754FC7700372FD7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6324A4161754FC7700372FD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6324A91D1755AA8300372FD7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		710716E219A61F24004E8CF4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		718C8E4219A1009E006F5400 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		718C8E4319A1009E006F5400 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		CB013ECF18C0500700D381A0 /* CommonNoResultCell.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CommonNoResultCell.xml; sourceTree = "<group>"; };
 		CB55509818B45695000EC760 /* NSObject+ScrollViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ScrollViewExt.h"; sourceTree = "<group>"; };
 		CB55509918B45695000EC760 /* NSObject+ScrollViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ScrollViewExt.m"; sourceTree = "<group>"; };
-		CB60E569179E2B100094F91C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		CB60E56B179E2B360094F91C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		CB81D08E18ABB3EE00F277EA /* AddressInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressInfoModel.h; sourceTree = "<group>"; };
 		CB81D08F18ABB3EE00F277EA /* AddressInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressInfoModel.m; sourceTree = "<group>"; };
 		CB81D09018ABB3EE00F277EA /* AddressListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressListModel.h; sourceTree = "<group>"; };
@@ -2624,19 +2626,19 @@
 			isa = PBXGroup;
 			children = (
 				E9F5E35F19546EA700216A56 /* framework */,
-				E9F5E66319546EA800216A56 /* services */,
-				CB60E56B179E2B360094F91C /* icon@2x.png */,
-				CB60E569179E2B100094F91C /* icon.png */,
-				630236AF177C1675004C052D /* shop */,
 				63249C9D1754E07900372FD7 /* Frameworks */,
+				718C8E4219A1009E006F5400 /* icon.png */,
+				718C8E4319A1009E006F5400 /* icon@2x.png */,
 				63249C9C1754E07900372FD7 /* Products */,
+				E9F5E66319546EA800216A56 /* services */,
+				630236AF177C1675004C052D /* shop */,
 			);
 			sourceTree = "<group>";
 		};
 		63249C9C1754E07900372FD7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63249C9B1754E07900372FD7 /* ECMobile.app */,
+				63249C9B1754E07900372FD7 /* NearBuy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2889,6 +2891,7 @@
 		CB9C20B718BB3B0900DDA501 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				710716E219A61F24004E8CF4 /* icon.png */,
 				CB9C20B818BB3B0900DDA501 /* accsessory_arrow_down@2x.png */,
 				CB9C20B918BB3B0900DDA501 /* accsessory_arrow_right@2x.png */,
 				CB9C20BA18BB3B0900DDA501 /* accsessory_arrow_up@2x.png */,
@@ -5140,7 +5143,7 @@
 			);
 			name = shop;
 			productName = shop;
-			productReference = 63249C9B1754E07900372FD7 /* ECMobile.app */;
+			productReference = 63249C9B1754E07900372FD7 /* NearBuy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -5150,7 +5153,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "geek-zoo studio";
+				ORGANIZATIONNAME = NearBuy;
 				TargetAttributes = {
 					63249C9A1754E07900372FD7 = {
 						DevelopmentTeam = 26R8TYMFHL;
@@ -5215,6 +5218,8 @@
 				CB9C230618BB3B0C00DDA501 /* item_info_new_collection_btn_bg@2x.png in Resources */,
 				CB9C231A18BB3B0C00DDA501 /* profile_refresh_prompt_bg@2x.png in Resources */,
 				CB9C233918BB3B0C00DDA501 /* shopping_cart_edit_remove_bg_grey@2x.png in Resources */,
+				710716E319A61F24004E8CF4 /* icon.png in Resources */,
+				718C8E4419A1009E006F5400 /* icon.png in Resources */,
 				CB9C232018BB3B0C00DDA501 /* search_new_shopping_cart_num_bg@2x.png in Resources */,
 				CB9C232C18BB3B0C00DDA501 /* shopping_cart_acc_btn_red@2x.png in Resources */,
 				1848BD9718B4D8690007238A /* Localizable.strings in Resources */,
@@ -5381,6 +5386,7 @@
 				1848BD8C18B4D8690007238A /* messages_tableview_background@2x.png in Resources */,
 				CB9C23CE18BB3B0C00DDA501 /* C5_BonusBoard_iPhone.xml in Resources */,
 				CB9C231218BB3B0C00DDA501 /* placeholder_image@2x.png in Resources */,
+				718C8E4519A1009E006F5400 /* icon@2x.png in Resources */,
 				CB9C23F418BB3B0C00DDA501 /* E3_PendingReceivedCell_iPhone.xml in Resources */,
 				CB9C232D18BB3B0C00DDA501 /* shopping_cart_acc_cart_icon@2x.png in Resources */,
 				CB9C236918BB3B0C00DDA501 /* wizard_4.xml in Resources */,
@@ -5445,7 +5451,6 @@
 				1848BD8318B4D8690007238A /* icon_rightArrow@2x.png in Resources */,
 				E9F5E94F19546EAA00216A56 /* ServiceShare_AuthorizeBoard.xml in Resources */,
 				CB9C23D618BB3B0C00DDA501 /* D0_SearchInput_iPhone.xml in Resources */,
-				CB60E56A179E2B100094F91C /* icon.png in Resources */,
 				CB9C22FF18BB3B0C00DDA501 /* item_info_buy_kinds_btn_grey@2x.png in Resources */,
 				CB9C232418BB3B0C00DDA501 /* searcher_new_search_box@2x.png in Resources */,
 				E9F5E97D19546EAA00216A56 /* bee.services.wizard.md in Resources */,
@@ -5495,7 +5500,6 @@
 				CB9C232518BB3B0C00DDA501 /* searcher_new_search_icon@2x.png in Resources */,
 				CB9C233118BB3B0C00DDA501 /* shopping_cart_body_bg_02@2x.png in Resources */,
 				E9F5E98019546EAA00216A56 /* ServiceWizard_Board.xml in Resources */,
-				CB60E56C179E2B360094F91C /* icon@2x.png in Resources */,
 				CB9C22E918BB3B0C00DDA501 /* item_graph_header_view_icon@2x.png in Resources */,
 				CB9C233418BB3B0C00DDA501 /* shopping_cart_body_dotted_line@2x.png in Resources */,
 				CB9C22F918BB3B0C00DDA501 /* item_info_buy_choose_min_btn@2x.png in Resources */,
@@ -6134,8 +6138,8 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Donglin Li (C57FZJKD84)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Donglin Li (C57FZJKD84)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/services/bee.services.siri/vendor",
@@ -6162,9 +6166,10 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = ECMobile;
-				PROVISIONING_PROFILE = "4D1A71C6-55C8-4413-8CC1-2ED6D42FED55";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4D1A71C6-55C8-4413-8CC1-2ED6D42FED55";
+				PRODUCT_NAME = NearBuy;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = armv7;
@@ -6177,8 +6182,8 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Donglin Li (C57FZJKD84)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Donglin Li (C57FZJKD84)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/services/bee.services.siri/vendor",
@@ -6205,9 +6210,10 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = ECMobile;
-				PROVISIONING_PROFILE = "4D1A71C6-55C8-4413-8CC1-2ED6D42FED55";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4D1A71C6-55C8-4413-8CC1-2ED6D42FED55";
+				PRODUCT_NAME = NearBuy;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
@@ -6249,8 +6255,8 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Donglin Li (C57FZJKD84)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Donglin Li (C57FZJKD84)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/services/bee.services.siri/vendor",
@@ -6277,9 +6283,10 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = ECMobile;
-				PROVISIONING_PROFILE = "4D1A71C6-55C8-4413-8CC1-2ED6D42FED55";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4D1A71C6-55C8-4413-8CC1-2ED6D42FED55";
+				PRODUCT_NAME = NearBuy;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
