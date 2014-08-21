@@ -82,7 +82,7 @@ ON_CREATE_VIEWS( signal )
     self.navigationBarTitle = __TEXT(@"gooddetail_product");
     self.navigationBarShown = YES;
     self.navigationBarLeft  = [UIImage imageNamed:@"nav_back.png"];;
-	self.navigationBarRight = [UIImage imageNamed:@"item_info_header_share_icon.png"];
+//	self.navigationBarRight = [UIImage imageNamed:@"item_info_header_share_icon.png"];
 
     self.specfied = @(NO);
 
@@ -172,7 +172,7 @@ ON_DID_APPEAR( signal )
 
 	if ( sweibo.ready || tweibo.ready || weixin.ready )
 	{
-		self.navigationBarRight = [UIImage imageNamed:@"item_info_header_share_icon.png"];
+//		self.navigationBarRight = [UIImage imageNamed:@"item_info_header_share_icon.png"];
 	}
 	else
 	{

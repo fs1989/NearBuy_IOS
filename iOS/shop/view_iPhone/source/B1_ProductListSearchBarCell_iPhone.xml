@@ -49,13 +49,13 @@
             
         }
         
-        .search-voice-button {
-            width: 46px;
-            height: 29px;
-            margin-left: 6px;
-            button-image: url(searcher_new_voice_btn.png);
-        }
-    
+<!--        .search-voice-button {-->
+<!--            width: 46px;-->
+<!--            height: 29px;-->
+<!--            margin-left: 6px;-->
+<!--            button-image: url(searcher_new_voice_btn.png);-->
+<!--        }-->
+
         </style>
     
 </ui>

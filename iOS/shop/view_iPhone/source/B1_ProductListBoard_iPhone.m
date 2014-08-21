@@ -91,7 +91,7 @@ ON_CREATE_VIEWS( signal )
 {
     [self showNavigationBarAnimated:NO];
     [self showBarButton:BeeUINavigationBar.LEFT image:[UIImage imageNamed:@"nav_back.png"]];
-    [self showBarButton:BeeUINavigationBar.RIGHT title:__TEXT(@"filter") image:[UIImage imageNamed:@"nav_right.png"]];
+//    [self showBarButton:BeeUINavigationBar.RIGHT title:__TEXT(@"filter") image:[UIImage imageNamed:@"nav_right.png"]];
 
     self.currentMode = self.MODE_GRID;
     
@@ -271,7 +271,7 @@ ON_SIGNAL2( BeeUITextField, signal )
 	if ( [signal is:BeeUITextField.WILL_DEACTIVE] )
 	{
 		_searchBackground.hidden = YES;
-		[self showBarButton:BeeUINavigationBar.RIGHT title:__TEXT(@"filter") image:[UIImage imageNamed:@"nav_right.png"]];
+//		[self showBarButton:BeeUINavigationBar.RIGHT title:__TEXT(@"filter") image:[UIImage imageNamed:@"nav_right.png"]];
 		_titleSearch.frame = CGRectMake(0, 0, self.view.width, 44.0f);
 	}
 

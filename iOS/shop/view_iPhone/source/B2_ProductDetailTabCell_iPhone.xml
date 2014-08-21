@@ -5,7 +5,7 @@
         
         <button id="favorite" class="button-star"></button>
         
-		<button id="buy" class="btn button-orange">@{gooddetail_buy}</button>
+<!--		<button id="buy" class="btn button-orange">@{gooddetail_buy}</button>-->
         <button id="add" class="btn button-red">@{gooddetail_shoppingcart}</button>
 		
         <col class="cart-wrapper">
@@ -39,7 +39,7 @@
         font: 11px bold;
         text-align: center;
         color: #fff;
-        width: 86px;
+        width: 200px;
         height: 28px;
         line-height: 28px;
         background-mode: stretch;
