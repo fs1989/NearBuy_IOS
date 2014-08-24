@@ -24,9 +24,9 @@
             width: 160px;
             height: 160px;
             position: absolute;
-            top: 0;
-            left: 0;
-            padding: 2px;
+<!--            top: 0;-->
+<!--            left: 0;-->
+            padding: 1px;
             image-src: url(body_cont_bg.png);
             image-mode: stretch;
         }
@@ -34,13 +34,14 @@
         .goods-photo {
             width: 160px;
             height: 160px;
+            margin: center;
             position: absolute;
             top: 3px;
             left: 3px;
             padding: 4px;
             border-radius: 5px;
             image-src: url();
-            image-mode: fit;
+            image-mode: fill;
         }
         
         .goods-title {

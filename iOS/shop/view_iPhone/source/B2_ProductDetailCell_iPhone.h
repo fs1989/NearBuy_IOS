@@ -22,5 +22,7 @@
 @interface B2_ProductDetailCell_iPhone : BeeUICell
 
 AS_OUTLET( BeeUIScrollView, list )
+AS_OUTLET( BeeUIPageControl, pager )
+@property (nonatomic, assign) NSUInteger			pageIndex;
 
 @end

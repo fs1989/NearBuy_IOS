@@ -35,7 +35,7 @@
 <string name="balance_address">收件地址</string>
 <string name="balance_pay">支付方式</string>
 <string name="balance_shipping">配送方式</string>
-<string name="balance_bill">发票信息</string>
+<string name="balance_bill">订单留言</string>
 <string name="balance_list">商品清单</string>
 <string name="balance_redpocket">红包</string>
 <string name="balance_exp">积分</string>
@@ -48,7 +48,7 @@
 <string name="bill_office">办公用品</string>
 <string name="bill_food">食品</string>
 <string name="bill_commodity">日用品</string>
-<string name="bill_title">发票抬头</string>
+<string name="bill_title">请输入订单留言</string>
 <string name="collect_myfavorite">我的收藏</string>
 <string name="collect_done">完成</string>
 <string name="collect_compile">编辑</string>
@@ -236,7 +236,7 @@
 <string name="error_11">用户名或email已使用</string>
 <string name="error_101">提交参数错误</string>
 <string name="error_8">处理失败</string>
-<string name="error_14">购买失败</string>
+<string name="error_14">库存不足</string>
 <string name="error_10009">订单无发货信息</string>
 <string name="error_10010">购物车里没有商品</string>
 <string name="tips_modifying">正在修改…</string>
@@ -357,7 +357,7 @@
 <string name="no_result">没有结果</string>
 <string name="switch_auto_mode">已切换为智能模式</string>
 <string name="switch_high_mode">已切换为高清模式</string>
-<string name="switch_low_mode">已切换为普清模式</string>
+<string name="switch_low_mode">已切换为标清模式</string>
 <string name="network_unreachable">网络不可用</string>
 <string name="network_wifi">已切换到WIFI模式</string>
 <string name="network_wlan">已切换到WLAN模式</string>
@@ -378,5 +378,5 @@
 <string name="will_end">特价将于</string>
 <string name="will_end2">后结束</string>
 <string name="error_aps">无法开启推送通知，请前往系统设置中修改</string>
-<string name="specs_tips">点击选择配件和数量</string>
+<string name="specs_tips">点击选择数量</string>
 </resources>

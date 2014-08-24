@@ -30,6 +30,9 @@ SUPPORT_AUTOMATIC_LAYOUT( YES )
 SUPPORT_RESOURCE_LOADING( YES )
 
 DEF_OUTLET( BeeUIScrollView, list )
+DEF_OUTLET( BeeUIPageControl, pager )
+
+@synthesize pageIndex = _pageIndex;
 
 - (void)load
 {
@@ -46,12 +49,36 @@ DEF_OUTLET( BeeUIScrollView, list )
         for ( BeeUIScrollItem * item in self.list.items )
         {
             item.clazz = [B2_ProductDetailSlideCell_iPhone class];
-            item.size = CGSizeMake( self.list.width, self.list.height );
+//            item.size = CGSizeMake( self.list.width, self.list.height );
+            item.size = self.list.size;
             item.data = [_pictures safeObjectAtIndex:item.index];
             item.rule = BeeUIScrollLayoutRule_Tile;
         }
     };
+    
+    self.list.whenReloaded = ^
+    {
+        @normalize(self);
+        
+        self.pager.numberOfPages = self.list.total;
+        self.pager.currentPage = self.list.pageIndex;
+    };
+    
+    self.list.whenStop = ^
+    {
+        @normalize(self);;
+        
+        self.pager.numberOfPages = self.list.total;
+        self.pager.currentPage = self.list.pageIndex;
+    };
 }
+ON_DELETE_VIEWS( signal )
+{
+    self.list = nil;
+    
+    self.pager = nil;
+}
+
 
 - (void)unload
 {
