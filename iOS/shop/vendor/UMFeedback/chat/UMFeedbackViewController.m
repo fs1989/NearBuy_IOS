@@ -46,12 +46,12 @@ static UITapGestureRecognizer *tapRecognizer;
         
         if ( [[UIDevice currentDevice].systemVersion floatValue] >= 7.0f )
         {
-            [bar setBackgroundImage:[UIImage imageNamed:@"G1_MessageBoard_iPhone_1.png"]
+            [bar setBackgroundImage:[UIImage imageNamed:@"nav_bg_iphone5.png"]
                       forBarMetrics:UIBarMetricsDefault];
         }
         else
         {
-           [bar setBackgroundImage:[UIImage imageNamed:@"G1_MessageBoard_iPhone_1_44.png"] forBarMetrics:UIBarMetricsDefault];
+           [bar setBackgroundImage:[UIImage imageNamed:@"nav_bg.png"] forBarMetrics:UIBarMetricsDefault];
         }
     }
 }
@@ -131,8 +131,8 @@ static UITapGestureRecognizer *tapRecognizer;
     button.titleLabel.font = [UIFont systemFontOfSize:14.0];
     [button setTitle:NSLocalizedString(@"Send", @"发送") forState:UIControlStateNormal];
     [button setTitleColor:[UIColor colorWithRed:142/255.0 green:142/255.0 blue:147/255.0 alpha:1.0] forState:UIControlStateNormal];
-//    [button setBackgroundImage:[UIImage imageNamed:@"send.png"] forState:UIControlStateNormal];
-//    [button setBackgroundImage:[UIImage imageNamed:@"send_selected.png"] forState:UIControlStateHighlighted];
+    [button setBackgroundImage:[UIImage imageNamed:@"send.png"] forState:UIControlStateNormal];
+    [button setBackgroundImage:[UIImage imageNamed:@"send_selected.png"] forState:UIControlStateHighlighted];
     [button addTarget:self action:@selector(sendFeedback:) forControlEvents:UIControlEventTouchUpInside];
 
     [self.mToolBar addSubview:button];
@@ -182,7 +182,7 @@ static UITapGestureRecognizer *tapRecognizer;
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.navigationItem.title = NSLocalizedString(@"Feedback", @"意见反馈");
+    self.navigationItem.title = NSLocalizedString(@"Contact us", @"联系我们");
     [self.navigationController.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], UITextAttributeTextColor, nil]];
 
     [self setBackButton];
@@ -246,12 +246,12 @@ static UITapGestureRecognizer *tapRecognizer;
     self.navigationItem.leftBarButtonItem = backButtonItem;
 
     backBtn.titleLabel.font = [UIFont systemFontOfSize:14.0];
-//    [backBtn setTitle:NSLocalizedString(@"Close", @"关闭") forState:UIControlStateNormal];
+    [backBtn setTitle:NSLocalizedString(@"Close", @"关闭") forState:UIControlStateNormal];
 
 //    [backBtn setBackgroundImage:[UIImage imageNamed:@"nav_btn_bg"] forState:UIControlStateNormal];
 //    [backBtn setBackgroundImage:[UIImage imageNamed:@"nav_btn_bg_lighted"] forState:UIControlStateHighlighted];
     [backBtn setImage:[UIImage imageNamed:@"navigation-back.png"] forState:UIControlStateNormal];
-    backBtn.frame = CGRectMake(0, 0, 51.0f, self.navigationController.navigationBar.frame.size.height * 0.7);
+    backBtn.frame = CGRectMake(0, 0, 40.0f, self.navigationController.navigationBar.frame.size.height * 0.7);
     backBtn.autoresizingMask = UIViewAutoresizingFlexibleHeight;
 }
 
@@ -324,8 +324,17 @@ static UITapGestureRecognizer *tapRecognizer;
     if ([self.mTextField.text length]) {
         NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
         [dictionary setObject:self.mTextField.text forKey:@"content"];
+        
+//        UserModel *userModel = nil;
+        
+        NSString * userName = [UserModel sharedInstance].user.name;
+        
+        self.mContactInfo = userName;
 
         if ([self.mContactInfo length]) {
+            
+            
+            
             [dictionary setObject:[NSDictionary dictionaryWithObjectsAndKeys:self.mContactInfo, @"plain", nil] forKey:@"contact"];
         }
 

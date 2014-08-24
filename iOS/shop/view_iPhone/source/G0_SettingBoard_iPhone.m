@@ -136,6 +136,12 @@ ON_SIGNAL3( G0_SettingCell_iPhone, setting_normal, signal )
 
 ON_SIGNAL3( G0_SettingCell_iPhone, setting_feedback, signal )
 {
+    if ( NO == [UserModel online] )
+    {
+        [bee.ui.appBoard showLogin];
+        return;
+    }
+    
 		UMFeedbackViewController * vc = [[UMFeedbackViewController alloc] initWithNibName:@"UMFeedbackViewController" bundle:nil];
 
 		vc.appkey = @"53f36a7ffd98c5488a003849";

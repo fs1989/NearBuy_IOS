@@ -57,15 +57,15 @@
 <!--            </row>-->
 <!--        </col>-->
         <!-- 技术支持 -->
-        <label class="form-group-caption">@{setting_tech}</label>
-        <col class="form-group">
-            <row class="form single nextor">
-                <image class="background"/>
-                <label class="title">@{setting_feedback}</label>
-                <image class="accessory"/>
-                <button class="mask" id="setting_feedback"/>
-            </row>
-        </col>
+<!--        <label class="form-group-caption">@{setting_tech}</label>-->
+<!--        <col class="form-group">-->
+<!--            <row class="form single nextor">-->
+<!--                <image class="background"/>-->
+<!--                <label class="title">@{setting_feedback}</label>-->
+<!--                <image class="accessory"/>-->
+<!--                <button class="mask" id="setting_feedback"/>-->
+<!--            </row>-->
+<!--        </col>-->
         <col class="form-group">
             <row class="form custom">
                 <image class="background logout"/>

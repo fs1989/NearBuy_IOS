@@ -70,6 +70,13 @@
             </row>
             
             <col class="list-wrapper">
+                <row class="list-item">
+                    <image class="list-bg"/>
+                    <label class="list-title">@{setting_feedback}</label>
+                    <label class="list-subtitle"></label>
+                    <image class="list-indictor"/>
+                    <button id="feedback" class="mask"/>
+                </row>
                 
                 <row class="list-item">
                     <image class="list-bg"/>

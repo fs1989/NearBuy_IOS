@@ -63,6 +63,9 @@
 		6324A4241754FC7700372FD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6324A4161754FC7700372FD7 /* UIKit.framework */; };
 		6324A91E1755AA8300372FD7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6324A91D1755AA8300372FD7 /* AudioToolbox.framework */; };
 		710716E319A61F24004E8CF4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 710716E219A61F24004E8CF4 /* icon.png */; };
+		713032E019A976AC00FA18F5 /* nav_bg_iphone5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 713032DF19A976AC00FA18F5 /* nav_bg_iphone5@2x.png */; };
+		713032E319A9778B00FA18F5 /* send_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 713032E119A9778B00FA18F5 /* send_selected@2x.png */; };
+		713032E419A9778B00FA18F5 /* send@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 713032E219A9778B00FA18F5 /* send@2x.png */; };
 		718C8E4419A1009E006F5400 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 718C8E4219A1009E006F5400 /* icon.png */; };
 		718C8E4519A1009E006F5400 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 718C8E4319A1009E006F5400 /* icon@2x.png */; };
 		CB013ED018C0500700D381A0 /* CommonNoResultCell.xml in Resources */ = {isa = PBXBuildFile; fileRef = CB013ECF18C0500700D381A0 /* CommonNoResultCell.xml */; };
@@ -978,6 +981,9 @@
 		6324A4161754FC7700372FD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6324A91D1755AA8300372FD7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		710716E219A61F24004E8CF4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		713032DF19A976AC00FA18F5 /* nav_bg_iphone5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_bg_iphone5@2x.png"; sourceTree = "<group>"; };
+		713032E119A9778B00FA18F5 /* send_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send_selected@2x.png"; sourceTree = "<group>"; };
+		713032E219A9778B00FA18F5 /* send@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send@2x.png"; sourceTree = "<group>"; };
 		718C8E4219A1009E006F5400 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		718C8E4319A1009E006F5400 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		CB013ECF18C0500700D381A0 /* CommonNoResultCell.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CommonNoResultCell.xml; sourceTree = "<group>"; };
@@ -2545,6 +2551,7 @@
 		1848BD5D18B4D8690007238A /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				713032DF19A976AC00FA18F5 /* nav_bg_iphone5@2x.png */,
 				1848BD5E18B4D8690007238A /* background@2x.png */,
 				1848BD5F18B4D8690007238A /* blueArrow.png */,
 				1848BD6018B4D8690007238A /* blueArrow@2x.png */,
@@ -2560,6 +2567,8 @@
 				1848BD6A18B4D8690007238A /* messages_tableview_background@2x.png */,
 				1848BD6B18B4D8690007238A /* messages_toolbar_background.png */,
 				1848BD6C18B4D8690007238A /* messages_toolbar_background@2x.png */,
+				713032E119A9778B00FA18F5 /* send_selected@2x.png */,
+				713032E219A9778B00FA18F5 /* send@2x.png */,
 				1848BD6D18B4D8690007238A /* nav_bg.png */,
 			);
 			path = Images;
@@ -5182,6 +5191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713032E019A976AC00FA18F5 /* nav_bg_iphone5@2x.png in Resources */,
 				1848BD8E18B4D8690007238A /* messages_toolbar_background@2x.png in Resources */,
 				CB9C22D918BB3B0C00DDA501 /* footer_home_icon@2x.png in Resources */,
 				CB9C236018BB3B0C00DDA501 /* tuitional_img_4_1@2x.png in Resources */,
@@ -5276,6 +5286,7 @@
 				CB9C231118BB3B0C00DDA501 /* no_internet_connection_inter_icon@2x.png in Resources */,
 				CB9C22D318BB3B0C00DDA501 /* expired@2x.jpg in Resources */,
 				CB9C23B118BB3B0C00DDA501 /* C0_ShoppingCartHeaderCell_iPhone.xml in Resources */,
+				713032E319A9778B00FA18F5 /* send_selected@2x.png in Resources */,
 				E9F5E98519546EAA00216A56 /* ServiceWizard_PhotoCell.xml in Resources */,
 				CB9C237218BB3B0C00DDA501 /* B0_BannerCell_iPhone.xml in Resources */,
 				CB9C240E18BB3B0C00DDA501 /* F0_AddressListCell_iPhone.xml in Resources */,
@@ -5309,6 +5320,7 @@
 				CB9C231518BB3B0C00DDA501 /* profile_no_avatar_icon@2x.png in Resources */,
 				1848BD9518B4D8690007238A /* UMFeedbackViewController.xib in Resources */,
 				CB9C22D818BB3B0C00DDA501 /* footer_home_active_icon@2x.png in Resources */,
+				713032E419A9778B00FA18F5 /* send@2x.png in Resources */,
 				CB9C233C18BB3B0C00DDA501 /* shopping_cart_modify_btn_grey@2x.png in Resources */,
 				CB9C22C518BB3B0C00DDA501 /* button_narrow_blue@2x.png in Resources */,
 				CB9C235418BB3B0C00DDA501 /* tuitional-carousel-active-btn@2x.png in Resources */,

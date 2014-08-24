@@ -23,6 +23,7 @@
 #import "F0_AddressListBoard_iPhone.h"
 #import "G0_SettingBoard_iPhone.h"
 #import "G1_HelpBoard_iPhone.h"
+#import "UMFeedbackViewController.h"
 
 #import "AppBoard_iPhone.h"
 
@@ -232,6 +233,26 @@ ON_SIGNAL3( E0_ProfileCell_iPhone, signin, signal )
 		return;
 	}	
 }
+
+/**
+ * 个人中心-联系我们，点击事件触发时执行的操作
+ */
+ON_SIGNAL3( E0_ProfileCell_iPhone, feedback, signal )
+{
+    if ( NO == [UserModel online] )
+    {
+        [bee.ui.appBoard showLogin];
+        return;
+    }
+    
+    UMFeedbackViewController * vc = [[UMFeedbackViewController alloc] initWithNibName:@"UMFeedbackViewController" bundle:nil];
+    
+    vc.appkey = @"53f36a7ffd98c5488a003849";
+    
+    UINavigationController * nav = [[[UINavigationController alloc] initWithRootViewController:vc] autorelease];
+    [self presentModalViewController:nav animated:YES];
+}
+
 
 /**
  * 个人中心-我的收藏，点击事件触发时执行的操作
