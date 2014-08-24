@@ -18,10 +18,10 @@
         
         <col class="goods-slide-wrapper">
             
-            <!-- <view type="BeeUIScrollView" id="goods-slide" /> -->
-            <!--    <view type="BeeUIPageControl" id="goods-pagectrl" /> -->
-            <list id="list"/>
-            <!--<pager id="pager"/> -->
+<!--             <view type="BeeUIScrollView" id="goods-slide" />-->
+            <list type="BeeUIScrollView" id="list"/>
+            <view type="BeeUIPageControl" id="goods-pagectrl" />
+            <pager id="pager"/> 
             
         </col>
         
@@ -159,23 +159,24 @@
             height: 172px;
         }
         
-        #goods-pagectrl {
-            width: 80px;
-            height: 16px;
-            border-radius: 5px;
-            background-color: #333 0.6;
-        }
-        
         #list {
             left: 0px;
             top: 0px;
             width: 100%;
             height: 172px;
-        /*    scroll-mode: paging; */
+            scroll-mode: paging;
             scroll-lines: 1;
             scroll-insets: 0px 0px 0px 0px;
             scroll-direction: h;
 		}
+        
+        #goods-pagectrl {
+        margin-top: 5px;
+        width: 80px;
+        height: 16px;
+        border-radius: 5px;
+        background-color: #333 0.6;
+        }
         
 		#pager {
             position: absolute;

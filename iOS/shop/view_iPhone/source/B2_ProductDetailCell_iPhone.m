@@ -46,7 +46,7 @@ DEF_OUTLET( BeeUIScrollView, list )
         for ( BeeUIScrollItem * item in self.list.items )
         {
             item.clazz = [B2_ProductDetailSlideCell_iPhone class];
-            item.size = CGSizeMake( 174, self.list.height );
+            item.size = CGSizeMake( self.list.width, self.list.height );
             item.data = [_pictures safeObjectAtIndex:item.index];
             item.rule = BeeUIScrollLayoutRule_Tile;
         }
