@@ -53,7 +53,7 @@ DEF_HTTP_HEADER( ContentRange,			@"Content-Range" )			// Content-Range: bytes 21
 DEF_HTTP_HEADER( ContentType,			@"Content-Type" )			// Content-Type: text/html; charset=utf-8
 DEF_HTTP_HEADER( Date,					@"Date" )					// Date: Tue, 15 Nov 2010 08:12:31 GMT
 DEF_HTTP_HEADER( ETag,					@"ETag" )					// ETag: “737060cd8c284d8af7ad3082f209582d”
-DEF_HTTP_HEADER( Expires,				@"Expires" )				// Expires: Thu, 01 Dec 2010 16:00:00 GMT
+DEF_HTTP_HEADER( Expires,				@"#Expires" )				// Expires: Thu, 01 Dec 2010 16:00:00 GMT
 DEF_HTTP_HEADER( LastModified,			@"Last-Modified" )			// Last-Modified: Tue, 15 Nov 2010 12:45:26 GMT
 DEF_HTTP_HEADER( Location,				@"Location" )				// Location: http://www.zcmhi.com/archives/94.html
 DEF_HTTP_HEADER( Pragma,				@"Pragma" )					// Pragma: no-cache

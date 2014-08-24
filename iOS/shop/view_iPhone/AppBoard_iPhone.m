@@ -153,7 +153,7 @@ ON_SIGNAL2( BeeUIBoard, signal )
 
 ON_SIGNAL3( AppBoard_iPhone, EXPIRE_TOUCHED, signal )
 {
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.ecmobile.me"]];
+//	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.ecmobile.me"]];
 }
 
 #pragma mark -

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    
+<string name="delivery_comment1">13点前下单，当日12:00-14:00配送</string>
+<string name="delivery_comment2">21点前下单，当日18:00-22:00配送</string>
+<string name="delivery_comment3">21点后下单，次日12:00-14:00配送</string>
+<string name="contact_us1">亲, 关于我们的产品和服务你萌有啥想说的, 欢迎随时给大叔留言! (如紧急, 可致电)</string>
+<string name="contact_us2">电话: 18131211210 (8点~24点可拨打)</string>
+<string name="contact_us3">百度燕大贴吧: @风雪诗昂 可以私信我你想说的话</string>
+
 <string name="lifecycle_all">All</string>
 <string name="lifecycle_visible">Visible</string>
 <string name="lifecycle_frontdeskoperation">Running in foreground</string>
@@ -30,6 +38,7 @@
 <string name="balance_bill">Order message</string>
 <string name="balance_list">Product list</string>
 <string name="balance_redpocket">Coupon</string>
+
 <string name="balance_exp">Score</string>
 <string name="balance_detail">Order details</string>
 <string name="balance_transportation">Transportation</string>
@@ -75,10 +84,10 @@
 <string name="login_register">Sign up for free</string>
 <string name="profile_personal">Account</string>
 <string name="profile_help">Help</string>
-<string name="profile_obligation">Cart</string>
-<string name="profile_readyforshipment">Delivering</string>
-<string name="profile_forthegoods">Delivered</string>
-<string name="profile_history">History</string>
+<string name="profile_obligation">待支付</string>
+<string name="profile_readyforshipment">待发货</string>
+<string name="profile_forthegoods">发货中</string>
+<string name="profile_history">历史订单</string>
 <string name="profile_message">Messages</string>
 <string name="redpaper_input">Please enter a score</string>
 <string name="register_regist">Sign Up</string>
@@ -345,7 +354,7 @@
 <string name="remain">Inventory</string>
 <string name="shipping_fee">Freight</string>
 <string name="shipping_fee_free">Free</string>
-<string name="shipping_fee_notfree">Not free</string>
+<string name="shipping_fee_notfree">Free</string>
 <string name="no_result">No result</string>
 <string name="switch_auto_mode">Switched to auto mode</string>
 <string name="switch_high_mode">Switched to high quality</string>

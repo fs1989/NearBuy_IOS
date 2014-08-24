@@ -10,6 +10,7 @@
                 <button class="mask" id="consignee"/>
             </row>
         </col>
+        
         <!-- 付款，配送，发票 -->
         <col class="form-group separator">
             <row class="form ex-nextor first">
@@ -38,26 +39,40 @@
         </col>
         
         <!-- 红包，积分 -->
-        <col class="form-group separator">
-            <row class="form normal first">
-                <image class="background"/>
-                <label class="title" id="balance_redpocket_title">@{balance_redpocket}</label>
-                <label class="subtitle" id="balance_redpocket_subtitle"></label>
-                <button class="mask" id="balance_redpocket"/>
-            </row>
-            <row class="form normal last">
-                <image class="background"/>
-                <label class="title" id="balance_exp_title">@{balance_exp}</label>
-                <label class="subtitle" id="balance_exp_subtitle"></label>
-                <button class="mask" id="balance_exp"/>
-            </row>
-        </col>
-        
+<!--        <col class="form-group separator">-->
+<!--            <row class="form normal first">-->
+<!--                <image class="background"/>-->
+<!--                <label class="title" id="balance_redpocket_title">@{balance_redpocket}</label>-->
+<!--                <label class="subtitle" id="balance_redpocket_subtitle"></label>-->
+<!--                <button class="mask" id="balance_redpocket"/>-->
+<!--            </row>-->
+<!--            <row class="form normal last">-->
+<!--                <image class="background"/>-->
+<!--                <label class="title" id="balance_exp_title">@{balance_exp}</label>-->
+<!--                <label class="subtitle" id="balance_exp_subtitle"></label>-->
+<!--                <button class="mask" id="balance_exp"/>-->
+<!--            </row>-->
+<!--        </col>-->
+
         <col class="form-group separator">
             <row class="form custom">
                 <C1_CheckoutOrderCell_iPhone class="CheckoutOrderCell" id="order_cell"/>
             </row>
         </col>
+        
+<!--        <!-- Comment -->-->
+<!--        <col class="form-group separator">-->
+<!--            <row class="form normal first">-->
+<!--                <label class="title" >@{delivery_comment1}</label>-->
+<!--            </row>-->
+<!--            <row class="form normal last">-->
+<!--                <label class="title" >@{delivery_comment2}</label>-->
+<!--            </row>-->
+<!--            <row class="form normal last">-->
+<!--                <label class="title" >@{delivery_comment3}</label>-->
+<!--            </row>-->
+<!--        </col>-->
+
         <!--
         <col class="form-group separator">
             <row class="form switch single">

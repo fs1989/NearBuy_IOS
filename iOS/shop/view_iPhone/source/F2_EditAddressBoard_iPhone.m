@@ -255,12 +255,12 @@ ON_NOTIFICATION3( BeeUIKeyboard, HIDDEN, notification )
         return NO;
     }
     
-	if ( !(zipcode && zipcode.length ) )
-	{
-		$(item).FIND(@"#zipcode").FOCUS();
-		[self presentFailureTips:__TEXT(@"warn_no_zipcode")];
-		return NO;
-	}
+//	if ( !(zipcode && zipcode.length ) )
+//	{
+//		$(item).FIND(@"#zipcode").FOCUS();
+//		[self presentFailureTips:__TEXT(@"warn_no_zipcode")];
+//		return NO;
+//	}
 	
     if ( !( tempAddress && tempAddress.length ) )
     {
