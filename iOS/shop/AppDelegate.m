@@ -66,8 +66,8 @@
 	bee.services.wizard.config.splashes[0] = @"wizard_1.xml";
 	bee.services.wizard.config.splashes[1] = @"wizard_2.xml";
 	bee.services.wizard.config.splashes[2] = @"wizard_3.xml";
-	bee.services.wizard.config.splashes[3] = @"wizard_4.xml";
-	bee.services.wizard.config.splashes[4] = @"wizard_5.xml";
+//	bee.services.wizard.config.splashes[3] = @"wizard_4.xml";
+//	bee.services.wizard.config.splashes[4] = @"wizard_5.xml";
     
 	// 配置提示框
 	{

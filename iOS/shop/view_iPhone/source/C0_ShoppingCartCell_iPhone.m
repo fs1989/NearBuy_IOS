@@ -49,7 +49,7 @@ DEF_SIGNAL( CART_REMOVE )
     _cartCell = [[C0_ShoppingCartGoodCell_iPhone alloc] initWithFrame:CGRectZero];
     [_container addSubview:_cartCell];
     
-    UIImage * image = [[UIImage imageNamed:@"shopping_cart_body_bg_03.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(10, 10, 10, 10)];
+    UIImage * image = [[UIImage imageNamed:@"shopping_cart_body.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(10, 10, 10, 10)];
     _background = [[BeeUIImageView alloc] initWithFrame:CGRectZero];
     _background.contentMode = UIViewContentModeScaleToFill;
     _background.image  = image;

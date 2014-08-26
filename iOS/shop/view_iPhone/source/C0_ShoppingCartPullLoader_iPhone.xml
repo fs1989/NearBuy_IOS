@@ -96,7 +96,7 @@
         left: 3px;
         width: 314px;
         height: 350px;
-        image: url(shopping_cart_body_bg_04.png);
+        image: url(shopping_cart_body.png);
         image-mode: stretch;
         }
 	</style>

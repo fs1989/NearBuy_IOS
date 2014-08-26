@@ -22,7 +22,8 @@
         }
         
         .order-cell-wrapper-bg {
-        width: 100%;
+        width: 300px;
+        margin-left: 6px;
         height: 100%;
         position: absolute;
         top: 0;

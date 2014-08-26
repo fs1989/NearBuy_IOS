@@ -46,7 +46,7 @@
         left: 0;
         image-mode: stretch;
         image-insets: 20px;
-        image: url(shopping_cart_body_bg_03.png);
+        image: url(shopping_cart_body_bg.png);
         }
         
         .cart-goods-wrapper {

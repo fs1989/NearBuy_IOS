@@ -11,8 +11,8 @@
         </row>
         
         <row class="button-wrapper">
-            <button id="shipping" class="button-narrow-gray">@{tradeitem_logistics}</button>
-            <button id="confirm" class="button-narrow-blue">@{tradeitem_receive}</button>
+<!--            <button id="shipping" class="button-narrow-gray">@{tradeitem_logistics}</button>-->
+<!--            <button id="confirm" class="button-narrow-blue">@{tradeitem_receive}</button>-->
         </row>
         
     </row>
@@ -60,7 +60,7 @@
         
         .cart-cell-wrapper-bg {
             width: 100%;
-            height: 100%;
+            height: 50%;
             position: absolute;
             top: 0;
             left: 0;
@@ -79,7 +79,7 @@
             width: 145px;
             height: 40px;
             margin-left: 15px;
-            margin-top: 25px;
+            margin-top: 10px;
         }
         
         #cart-goods-desc {

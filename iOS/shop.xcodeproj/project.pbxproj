@@ -68,6 +68,11 @@
 		713032E419A9778B00FA18F5 /* send@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 713032E219A9778B00FA18F5 /* send@2x.png */; };
 		718C8E4419A1009E006F5400 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 718C8E4219A1009E006F5400 /* icon.png */; };
 		718C8E4519A1009E006F5400 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 718C8E4319A1009E006F5400 /* icon@2x.png */; };
+		71B637E719AB5E4300C549EA /* one@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B637E419AB5E4200C549EA /* one@2x.png */; };
+		71B637E819AB5E4300C549EA /* two@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B637E519AB5E4200C549EA /* two@2x.png */; };
+		71B637E919AB5E4300C549EA /* three@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B637E619AB5E4200C549EA /* three@2x.png */; };
+		71B637F019ACCAD300C549EA /* shopping_cart_body@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B637EE19ACCAD300C549EA /* shopping_cart_body@2x.png */; };
+		71B637F119ACCAD300C549EA /* shopping_cart_footer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B637EF19ACCAD300C549EA /* shopping_cart_footer@2x.png */; };
 		CB013ED018C0500700D381A0 /* CommonNoResultCell.xml in Resources */ = {isa = PBXBuildFile; fileRef = CB013ECF18C0500700D381A0 /* CommonNoResultCell.xml */; };
 		CB55509A18B45695000EC760 /* NSObject+ScrollViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = CB55509918B45695000EC760 /* NSObject+ScrollViewExt.m */; };
 		CB81D25F18ABB3F000F277EA /* AddressInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB81D08F18ABB3EE00F277EA /* AddressInfoModel.m */; };
@@ -986,6 +991,11 @@
 		713032E219A9778B00FA18F5 /* send@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send@2x.png"; sourceTree = "<group>"; };
 		718C8E4219A1009E006F5400 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		718C8E4319A1009E006F5400 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		71B637E419AB5E4200C549EA /* one@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "one@2x.png"; sourceTree = "<group>"; };
+		71B637E519AB5E4200C549EA /* two@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "two@2x.png"; sourceTree = "<group>"; };
+		71B637E619AB5E4200C549EA /* three@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "three@2x.png"; sourceTree = "<group>"; };
+		71B637EE19ACCAD300C549EA /* shopping_cart_body@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopping_cart_body@2x.png"; sourceTree = "<group>"; };
+		71B637EF19ACCAD300C549EA /* shopping_cart_footer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopping_cart_footer@2x.png"; sourceTree = "<group>"; };
 		CB013ECF18C0500700D381A0 /* CommonNoResultCell.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CommonNoResultCell.xml; sourceTree = "<group>"; };
 		CB55509818B45695000EC760 /* NSObject+ScrollViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ScrollViewExt.h"; sourceTree = "<group>"; };
 		CB55509918B45695000EC760 /* NSObject+ScrollViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ScrollViewExt.m"; sourceTree = "<group>"; };
@@ -2900,6 +2910,8 @@
 		CB9C20B718BB3B0900DDA501 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				71B637EE19ACCAD300C549EA /* shopping_cart_body@2x.png */,
+				71B637EF19ACCAD300C549EA /* shopping_cart_footer@2x.png */,
 				710716E219A61F24004E8CF4 /* icon.png */,
 				CB9C20B818BB3B0900DDA501 /* accsessory_arrow_down@2x.png */,
 				CB9C20B918BB3B0900DDA501 /* accsessory_arrow_right@2x.png */,
@@ -3071,6 +3083,9 @@
 		CB9C215518BB3B0A00DDA501 /* splash */ = {
 			isa = PBXGroup;
 			children = (
+				71B637E419AB5E4200C549EA /* one@2x.png */,
+				71B637E519AB5E4200C549EA /* two@2x.png */,
+				71B637E619AB5E4200C549EA /* three@2x.png */,
 				CB9C215618BB3B0A00DDA501 /* tuitional-carousel-active-btn@2x.png */,
 				CB9C215718BB3B0A00DDA501 /* tuitional-carousel-btn-last@2x.png */,
 				CB9C215818BB3B0A00DDA501 /* tuitional-carousel-btn@2x.png */,
@@ -5240,6 +5255,7 @@
 				CB9C22FD18BB3B0C00DDA501 /* item_info_buy_entry_loading_header_close_icon@2x.png in Resources */,
 				CB9C234018BB3B0C00DDA501 /* shopping_checkout_cont_bg@2x.png in Resources */,
 				CB9C22D118BB3B0C00DDA501 /* closed@2x.jpg in Resources */,
+				71B637E919AB5E4300C549EA /* three@2x.png in Resources */,
 				CB9C23B718BB3B0C00DDA501 /* C1_CheckOutCell_iPhone.xml in Resources */,
 				CB9C238A18BB3B0C00DDA501 /* B1_ProductListSearchBarCell_iPhone.xml in Resources */,
 				1848BD8B18B4D8690007238A /* messages_tableview_background.png in Resources */,
@@ -5252,6 +5268,7 @@
 				CB9C22EC18BB3B0C00DDA501 /* item_grid_body_price_bg_red@2x.png in Resources */,
 				CB9C231918BB3B0C00DDA501 /* profile_refresh_payment_icon@2x.png in Resources */,
 				CB9C23DE18BB3B0C00DDA501 /* D2_FilterCell_iPhone.xml in Resources */,
+				71B637E819AB5E4300C549EA /* two@2x.png in Resources */,
 				63023910177C1676004C052D /* Default.png in Resources */,
 				CB9C230118BB3B0C00DDA501 /* item_info_carousel_bg@2x.png in Resources */,
 				CB9C235D18BB3B0C00DDA501 /* tuitional_img_3_1@2x.png in Resources */,
@@ -5326,6 +5343,7 @@
 				CB9C235418BB3B0C00DDA501 /* tuitional-carousel-active-btn@2x.png in Resources */,
 				CB9C240618BB3B0C00DDA501 /* E6_ShippingStatusFooter_iPhone.xml in Resources */,
 				CB9C236A18BB3B0C00DDA501 /* wizard_5.xml in Resources */,
+				71B637E719AB5E4300C549EA /* one@2x.png in Resources */,
 				CB9C22BE18BB3B0C00DDA501 /* address_empty_body_add_icon@2x.png in Resources */,
 				CB9C234218BB3B0C00DDA501 /* shopping_checkout_required_bg@2x.png in Resources */,
 				CB9C240018BB3B0C00DDA501 /* E5_CollectionCell_iPhone.xml in Resources */,
@@ -5452,6 +5470,7 @@
 				CB9C233A18BB3B0C00DDA501 /* shopping_cart_edit_remove_box@2x.png in Resources */,
 				CB9C22AD18BB3B0C00DDA501 /* FormPlainOptionCell.xml in Resources */,
 				CB9C23DC18BB3B0C00DDA501 /* D2_FilterBoard_iPhone.xml in Resources */,
+				71B637F019ACCAD300C549EA /* shopping_cart_body@2x.png in Resources */,
 				CB9C233018BB3B0C00DDA501 /* shopping_cart_body_bg_01@2x.png in Resources */,
 				CB9C230518BB3B0C00DDA501 /* item_info_new_buy_icon@2x.png in Resources */,
 				CB9C234118BB3B0C00DDA501 /* shopping_checkout_phone_icon@2x.png in Resources */,
@@ -5504,6 +5523,7 @@
 				CB9C22ED18BB3B0C00DDA501 /* item_grid_filter_bg@2x.png in Resources */,
 				CB9C22EA18BB3B0C00DDA501 /* item_grid_body_free_shipping_bg@2x.png in Resources */,
 				CB9C234518BB3B0C00DDA501 /* trade_info_cont_bg1@2x.png in Resources */,
+				71B637F119ACCAD300C549EA /* shopping_cart_footer@2x.png in Resources */,
 				CB9C236418BB3B0C00DDA501 /* wizard-568h.css in Resources */,
 				CB9C22E718BB3B0C00DDA501 /* item_faverites_edit_close_btn@2x.png in Resources */,
 				CB9C22B418BB3B0C00DDA501 /* OrderCellHeader_iPhone.xml in Resources */,

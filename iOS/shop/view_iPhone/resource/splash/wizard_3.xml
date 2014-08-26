@@ -4,15 +4,15 @@
 
     <linear orientation="v" class="wrapper">
         <linear orientation="v" class="header-wrapper">
-            <label id="h1" class="title">@{unify_service}</label>
+<!--            <label id="h1" class="title">@{unify_service}</label>-->
         </linear>
         <linear orientation="v" class="inner-wrapper">
-            <image id="img-1" class="abs" src="tuitional_img_3_1.png"/>
-            <image id="img-2" class="abs" src="tuitional_img_3_2.png"/>
-            <image id="img-3" class="abs" src="tuitional_img_3_3.png"/>
+            <image id="img-1" class="abs" src="three.png"/>
+<!--            <image id="img-2" class="abs" src="tuitional_img_3_2.png"/>-->
+<!--            <image id="img-3" class="abs" src="tuitional_img_3_3.png"/>-->
         </linear>
         <linear orientation="v" class="footer-wrapper">
-            <label id="h2" class="subtitle">@{unify_response}</label>
+<!--            <label id="h2" class="subtitle">@{unify_response}</label>-->
         </linear>
     </linear>
 
@@ -20,12 +20,18 @@
     <style href="wizard-568h.css" media="iPhone5"/>
 	
     <style type="text/css" media="iPhone4">
-		#img-1 {
-			top: 150px;
-			left: 132px;
-			width: 155px;
-			height: 120px;
-			image-mode: fit;
+<!--		#img-1 {-->
+<!--			top: 150px;-->
+<!--			left: 132px;-->
+<!--			width: 155px;-->
+<!--			height: 120px;-->
+<!--			image-mode: fit;-->
+            #img-1 {
+                    top: 0px;
+                    left: 0px;
+                    width: 100%;
+                    height: 100%;
+                    image-mode: fit;
         }
 		
         #img-2 {
@@ -46,11 +52,11 @@
 	</style>
     <style type="text/css" media="iPhone5">
         #img-1 {
-			top: 160px;
-			left: 132px;
-			width: 155px;
-			height: 120px;
-			image-mode: fit;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            image-mode: fit;
         }
 
         #img-2 {

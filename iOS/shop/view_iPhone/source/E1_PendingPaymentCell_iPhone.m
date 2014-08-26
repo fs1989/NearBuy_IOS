@@ -96,7 +96,7 @@ DEF_SIGNAL( ORDER_PAY )
         BeeUIScrollItem * orderInfoItem = self.list.items[offset];
         orderInfoItem.clazz = [OrderCellInfo_iPhone class];
         orderInfoItem.data = self.order;
-        orderInfoItem.size = CGSizeMake( self.list.width, 70 );
+        orderInfoItem.size = CGSizeMake( self.list.width, 0 );
         orderInfoItem.rule = BeeUIScrollLayoutRule_Tile;
         
         offset += 1;

@@ -44,7 +44,7 @@ SUPPORT_RESOURCE_LOADING( YES )
 	
     if ( [ExpressModel kuaidi100Key] )
 	{
-		$(@"#shipping").SHOW();
+		$(@"#shipping").HIDE();
 	}
 	else
 	{

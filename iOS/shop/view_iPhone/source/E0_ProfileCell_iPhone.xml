@@ -28,17 +28,17 @@
             
             <row class="bar-wrapper">
                 <image class="list-large-bg"/>
-                <col class="bar-item">
-                    <image class="bar-item-icon payment"/>
-                    <label class="bar-item-info" id="await_pay_label">@{profile_obligation}</label>
-                    <col class="badge-wrapper">
-                        <image id="await_pay-bg" class="badge-wrapper-bg"/>
-                        <label id="await_pay" class="bar-item-badge"></label>
-                    </col>
-                    <button id="order_await_pay" class="mask"/>
-                </col>
-                
-                <col class="bar-item">
+<!--                <col class="bar-item">-->
+<!--                    <image class="bar-item-icon payment"/>-->
+<!--                    <label class="bar-item-info" id="await_pay_label">@{profile_obligation}</label>-->
+<!--                    <col class="badge-wrapper">-->
+<!--                        <image id="await_pay-bg" class="badge-wrapper-bg"/>-->
+<!--                        <label id="await_pay" class="bar-item-badge"></label>-->
+<!--                    </col>-->
+<!--                    <button id="order_await_pay" class="mask"/>-->
+<!--                </col>-->
+
+                <col class="bar-item1">
                     <image class="bar-item-icon ship" />
                     <label class="bar-item-info" id="await_ship_label">@{profile_readyforshipment}</label>
                     <col class="badge-wrapper">
@@ -48,7 +48,7 @@
                     <button id="order_await_ship" class="mask"/>
                 </col>
                 
-                <col class="bar-item">
+                <col class="bar-item2">
                     <image class="bar-item-icon receipt"/>
                     <label class="bar-item-info" id="shipped_label">@{profile_forthegoods}</label>
                     <col class="badge-wrapper">
@@ -58,7 +58,7 @@
                     <button id="order_shipped" class="mask"/>
                 </col>
                 
-                <col class="bar-item">
+                <col class="bar-item3">
                     <image class="bar-item-icon history"/>
                     <label class="bar-item-info" id="finished_label">@{profile_history}</label>
                     <col class="badge-wrapper">
@@ -171,12 +171,26 @@
 			v-align: center;
 		}
 		
-		.bar-item {
+		.bar-item1 {
 			width: 60px;
 			height: 40px;
 			align: center;
-			margin-left: 10px;
+			margin-left: 20px;
 		}
+    
+        .bar-item2 {
+            width: 60px;
+            height: 40px;
+            align: center;
+            margin-left: 40px;
+        }
+    
+        .bar-item3 {
+            width: 60px;
+            height: 40px;
+            align: center;
+            margin-left: 40px;
+        }
 		
 		.badge-wrapper {
 			width: auto;

@@ -86,7 +86,7 @@ DEF_OUTLET( BeeUIScrollView, list )
         BeeUIScrollItem * orderInfoItem = self.list.items[offset];
         orderInfoItem.clazz = [C1_CheckoutOrderCellInfo_iPhone class];
         orderInfoItem.data = model;
-        orderInfoItem.size = CGSizeMake( self.list.width, 79 );
+        orderInfoItem.size = CGSizeMake( self.list.width, 35 );
         orderInfoItem.rule = BeeUIScrollLayoutRule_Tile;
         
         offset += 1;
