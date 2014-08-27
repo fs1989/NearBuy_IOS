@@ -82,7 +82,7 @@
 <string name="login_password">密码</string>
 <string name="login_register">没有帐号？免费注册</string>
 <string name="profile_personal">个人中心</string>
-<string name="profile_help">帮助</string>
+<string name="profile_help">通知</string>
 <string name="profile_obligation">待付款</string>
 <string name="profile_readyforshipment">待发货</string>
 <string name="profile_forthegoods">配送中</string>

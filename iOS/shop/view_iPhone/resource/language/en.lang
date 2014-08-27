@@ -83,7 +83,7 @@
 <string name="login_password">Password</string>
 <string name="login_register">Sign up for free</string>
 <string name="profile_personal">Account</string>
-<string name="profile_help">Help</string>
+<string name="profile_help">Notification</string>
 <string name="profile_obligation">待支付</string>
 <string name="profile_readyforshipment">待发货</string>
 <string name="profile_forthegoods">发货中</string>
