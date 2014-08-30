@@ -39,6 +39,10 @@
 		321E8D141936F6AC00C8143F /* B1_ProductListSearchBackgroundCell_iPhone.xml in Resources */ = {isa = PBXBuildFile; fileRef = 321E8D111936F6AC00C8143F /* B1_ProductListSearchBackgroundCell_iPhone.xml */; };
 		321E8D151936F6AC00C8143F /* B1_ProductListSearchBackgroundCell_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E8D121936F6AC00C8143F /* B1_ProductListSearchBackgroundCell_iPhone.m */; };
 		3268BEE2192B4CCD00512CB7 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3268BEE1192B4CCD00512CB7 /* AddressBook.framework */; };
+		373CCEA619B1A5DC005E71B0 /* 120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 373CCEA519B1A5DC005E71B0 /* 120@2x.png */; };
+		373CCEAA19B1A661005E71B0 /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 373CCEA719B1A661005E71B0 /* 29.png */; };
+		373CCEAB19B1A661005E71B0 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 373CCEA819B1A661005E71B0 /* 58.png */; };
+		373CCEAC19B1A661005E71B0 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 373CCEA919B1A661005E71B0 /* 80.png */; };
 		6302390C177C1676004C052D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 630236B1177C1675004C052D /* AppDelegate.m */; };
 		6302390D177C1676004C052D /* controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 630236B4177C1675004C052D /* controller.m */; };
 		6302390F177C1676004C052D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630236B7177C1675004C052D /* Default-568h@2x.png */; };
@@ -955,6 +959,10 @@
 		321E8D121936F6AC00C8143F /* B1_ProductListSearchBackgroundCell_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B1_ProductListSearchBackgroundCell_iPhone.m; sourceTree = "<group>"; };
 		321E8D131936F6AC00C8143F /* B1_ProductListSearchBackgroundCell_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B1_ProductListSearchBackgroundCell_iPhone.h; sourceTree = "<group>"; };
 		3268BEE1192B4CCD00512CB7 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		373CCEA519B1A5DC005E71B0 /* 120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "120@2x.png"; sourceTree = "<group>"; };
+		373CCEA719B1A661005E71B0 /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
+		373CCEA819B1A661005E71B0 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		373CCEA919B1A661005E71B0 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
 		630236B0177C1675004C052D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		630236B1177C1675004C052D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		630236B3177C1675004C052D /* controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = controller.h; sourceTree = "<group>"; };
@@ -2644,6 +2652,10 @@
 		63249C921754E07900372FD7 = {
 			isa = PBXGroup;
 			children = (
+				373CCEA719B1A661005E71B0 /* 29.png */,
+				373CCEA819B1A661005E71B0 /* 58.png */,
+				373CCEA919B1A661005E71B0 /* 80.png */,
+				373CCEA519B1A5DC005E71B0 /* 120@2x.png */,
 				E9F5E35F19546EA700216A56 /* framework */,
 				63249C9D1754E07900372FD7 /* Frameworks */,
 				718C8E4219A1009E006F5400 /* icon.png */,
@@ -5282,6 +5294,7 @@
 				1848BD9818B4D8690007238A /* umFeedback.bundle in Resources */,
 				CB9C239E18BB3B0C00DDA501 /* B4_ProductParamBoard_iPhone.xml in Resources */,
 				CB9C238218BB3B0C00DDA501 /* B1_ProductListCartCell_iPhone.xml in Resources */,
+				373CCEAB19B1A661005E71B0 /* 58.png in Resources */,
 				CB9C229A18BB3B0C00DDA501 /* CommonFootLoader.xml in Resources */,
 				CB9C22CA18BB3B0C00DDA501 /* cell_bg_content@2x.png in Resources */,
 				CB9C230818BB3B0C00DDA501 /* item_info_pushed_collect_btn@2x.png in Resources */,
@@ -5355,6 +5368,7 @@
 				CB9C230418BB3B0C00DDA501 /* item_info_header_share_icon@2x.png in Resources */,
 				CB9C22DF18BB3B0C00DDA501 /* footer_user_icon@2x.png in Resources */,
 				CB9C234B18BB3B0C00DDA501 /* trade_info_stream_body_bg_03@2x.png in Resources */,
+				373CCEA619B1A5DC005E71B0 /* 120@2x.png in Resources */,
 				CB9C22CC18BB3B0C00DDA501 /* cell_bg_footer@2x.png in Resources */,
 				CB9C23C318BB3B0C00DDA501 /* C1_CheckoutOrderCellInfo_iPhone.xml in Resources */,
 				CB9C23C818BB3B0C00DDA501 /* C3_DistributionBoard_iPhone.xml in Resources */,
@@ -5509,6 +5523,7 @@
 				CB9C22CB18BB3B0C00DDA501 /* cell_bg_content_small@2x.png in Resources */,
 				CB9C235618BB3B0C00DDA501 /* tuitional-carousel-btn@2x.png in Resources */,
 				CB9C23CB18BB3B0C00DDA501 /* C4_InvoiceBoard_iPhone.xml in Resources */,
+				373CCEAC19B1A661005E71B0 /* 80.png in Resources */,
 				CB9C234D18BB3B0C00DDA501 /* trade_info_stream_cont_dotted_line@2x.png in Resources */,
 				CB9C231618BB3B0C00DDA501 /* profile_refresh_camera_icon@2x.png in Resources */,
 				CB9C235F18BB3B0C00DDA501 /* tuitional_img_3_3@2x.png in Resources */,
@@ -5521,6 +5536,7 @@
 				CB9C233D18BB3B0C00DDA501 /* shopping_checkout_body_bg@2x.png in Resources */,
 				CB9C242118BB3B0C00DDA501 /* G1_HelpCell_iPhone.xml in Resources */,
 				CB9C22ED18BB3B0C00DDA501 /* item_grid_filter_bg@2x.png in Resources */,
+				373CCEAA19B1A661005E71B0 /* 29.png in Resources */,
 				CB9C22EA18BB3B0C00DDA501 /* item_grid_body_free_shipping_bg@2x.png in Resources */,
 				CB9C234518BB3B0C00DDA501 /* trade_info_cont_bg1@2x.png in Resources */,
 				71B637F119ACCAD300C549EA /* shopping_cart_footer@2x.png in Resources */,
@@ -6171,7 +6187,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/services/bee.services.siri/vendor",
@@ -6199,8 +6215,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = NearBuy;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "301ced9c-6596-48fd-9937-b6ee50090a7b";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "301ced9c-6596-48fd-9937-b6ee50090a7b";
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -6215,7 +6231,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/services/bee.services.siri/vendor",
@@ -6243,8 +6259,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = NearBuy;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "301ced9c-6596-48fd-9937-b6ee50090a7b";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "301ced9c-6596-48fd-9937-b6ee50090a7b";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = armv7;
@@ -6288,7 +6304,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/services/bee.services.siri/vendor",
@@ -6316,8 +6332,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = NearBuy;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "301ced9c-6596-48fd-9937-b6ee50090a7b";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "301ced9c-6596-48fd-9937-b6ee50090a7b";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = armv7;
