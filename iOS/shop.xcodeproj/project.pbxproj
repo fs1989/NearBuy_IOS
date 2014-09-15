@@ -6186,52 +6186,8 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/services/bee.services.siri/vendor",
-				);
-				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_INPUT_FILETYPE = automatic;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "shop/shop-Prefix.pch";
-				GENERATE_PROFILING_CODE = YES;
-				HEADER_SEARCH_PATHS = (
-					/usr/include/libxml2,
-					"$(PROJECT_DIR)/manager/include",
-				);
-				INFOPLIST_FILE = "shop/shop-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/shop/vendor/UMFeedback",
-					"$(SRCROOT)/shop/vendor/UMAnalytics",
-					"$(PROJECT_DIR)/manager/lib",
-					"$(PROJECT_DIR)/services/bee.services.alipay/vendor/AlipaySDK/openssl/lib",
-					"$(PROJECT_DIR)/services/bee.services.share.weixin/vendor/WeixinSDK",
-					"$(PROJECT_DIR)/services/bee.services.uppayplugin/vendor",
-				);
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = NearBuy;
-				PROVISIONING_PROFILE = "301ced9c-6596-48fd-9937-b6ee50090a7b";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "301ced9c-6596-48fd-9937-b6ee50090a7b";
-				SDKROOT = iphoneos;
-				STRIP_INSTALLED_PRODUCT = NO;
-				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = armv7;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		63249CBA1754E07900372FD7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/services/bee.services.siri/vendor",
@@ -6259,8 +6215,52 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = NearBuy;
-				PROVISIONING_PROFILE = "301ced9c-6596-48fd-9937-b6ee50090a7b";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "301ced9c-6596-48fd-9937-b6ee50090a7b";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7a572a39-4d8e-4f64-b15d-48370b0ee605";
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63249CBA1754E07900372FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/services/bee.services.siri/vendor",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shop/shop-Prefix.pch";
+				GENERATE_PROFILING_CODE = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+					"$(PROJECT_DIR)/manager/include",
+				);
+				INFOPLIST_FILE = "shop/shop-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/shop/vendor/UMFeedback",
+					"$(SRCROOT)/shop/vendor/UMAnalytics",
+					"$(PROJECT_DIR)/manager/lib",
+					"$(PROJECT_DIR)/services/bee.services.alipay/vendor/AlipaySDK/openssl/lib",
+					"$(PROJECT_DIR)/services/bee.services.share.weixin/vendor/WeixinSDK",
+					"$(PROJECT_DIR)/services/bee.services.uppayplugin/vendor",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = NearBuy;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7a572a39-4d8e-4f64-b15d-48370b0ee605";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = armv7;
@@ -6303,8 +6303,8 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/services/bee.services.siri/vendor",
@@ -6332,8 +6332,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = NearBuy;
-				PROVISIONING_PROFILE = "301ced9c-6596-48fd-9937-b6ee50090a7b";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "301ced9c-6596-48fd-9937-b6ee50090a7b";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7a572a39-4d8e-4f64-b15d-48370b0ee605";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = armv7;
