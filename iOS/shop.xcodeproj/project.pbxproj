@@ -6186,8 +6186,8 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/services/bee.services.siri/vendor",
@@ -6215,7 +6215,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = NearBuy;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "7a572a39-4d8e-4f64-b15d-48370b0ee605";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7a572a39-4d8e-4f64-b15d-48370b0ee605";
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -6230,8 +6230,8 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/services/bee.services.siri/vendor",
@@ -6259,7 +6259,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = NearBuy;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "7a572a39-4d8e-4f64-b15d-48370b0ee605";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7a572a39-4d8e-4f64-b15d-48370b0ee605";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -6303,8 +6303,8 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Zhang (Q955T2N6NH)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/services/bee.services.siri/vendor",
@@ -6332,7 +6332,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = NearBuy;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "7a572a39-4d8e-4f64-b15d-48370b0ee605";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7a572a39-4d8e-4f64-b15d-48370b0ee605";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
